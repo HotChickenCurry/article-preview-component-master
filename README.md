@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://hotchickencurry.github.io/article-preview-component-master](https://hotchickencurry.github.io/article-preview-component-master)
 
 ## My process
 Started with semantic tags and set up Tailwind CSS, following a mobile-first approach with responsive modifiers for larger screens. Used Flexbox and Grid to structure the layout, including the profile section and Share button. Added interactivity with JavaScript by implementing tooltips that behave differently on desktop and mobile. Used mouseenter and mouseleave events and toggled classes to show or hide tooltips, which initially led to a logic bug that canceled out some behavior. Through this, I learned how to reason about conditional logic in JavaScript and debug interactive components.
