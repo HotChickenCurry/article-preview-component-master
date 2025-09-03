@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <script defer src="./src/script.js"></script>
+</head>
+<body class="bg-light-gray-blue p-6 grid grid-rows-[1fr_auto] place-items-center min-h-screen">
+
+
+<main class="bg-white drop-shadow-2xl drop-shadow-dark-blue/25 relative overflow-hidden sm:overflow-visible flex flex-col sm:flex-row justify-end sm:max-w-[780px] rounded-lg">
+    <img class="h-60 sm:h-auto sm:w-96 object-cover rounded-l-lg" src="./images/drawers.jpg" alt="drawers">
+    
+    <!-- tooltip mobile -->
+    <div id="tooltip-mobile" class="absolute hidden bottom-0 flex flex-row items-center space-x-5 bg-dark-gray-blue p-8 w-full z-1">
+        <p class="text-gray-blue uppercase tracking-[0.4em]">share</p>
+        <img class="h-6 w-auto" src="./images/icon-facebook.svg" alt="icon-facebook">
+        <img class="h-6 w-auto" src="./images/icon-twitter.svg" alt="icon-twitter">
+        <img class="h-6 w-auto" src="./images/icon-pinterest.svg" alt="icon-pinterest">
+    </div>
+    <!-- tooltip -->
+    <div id="tooltip" class="hidden absolute -right-17 bottom-28">
+        <div class="rounded-lg flex flex-row items-center space-x-5 bg-dark-gray-blue p-5 px-10">
+            <p class="text-gray-blue uppercase tracking-[0.4em]">share</p>
+            <img class="h-6 w-auto" src="./images/icon-facebook.svg" alt="icon-facebook">
+            <img class="h-6 w-auto" src="./images/icon-twitter.svg" alt="icon-twitter">
+            <img class="h-6 w-auto" src="./images/icon-pinterest.svg" alt="icon-pinterest">
+        </div>
+    </div>
+    <div id="tooltip-triangle" class="hidden absolute right-18 bottom-[6.5rem] w-5 h-5 bg-dark-gray-blue rotate-45"></div>
+
+    <article class="px-10 pt-10 pb-5 sm:px-16 sm:pt-16 sm:pb-10 space-y-4">
+        <h1 class="font-bold text-lg leading-snug sm:leading-8 tracking-tight sm:tracking-normal sm:me-2">
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home
+        </h1>    
+        <p class="leading-6"> 
+            Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete. 
+        </p>
+
+        <div class="relative grid grid-cols-[auto_1fr_auto] gap-x-5 pt-4" id="#profile">
+            <img src="./images/avatar-michelle.jpg" alt="michelle" class="w-10 h-10 rounded-full">
+            <div>
+                <p class="font-bold">Michelle Appleton</p>
+                <p class="text-gray-blue">28 Jun 2020</p>
+            </div>
+           
+            <button class="rounded-full group self-center p-3 z-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+            </button>
+        </div>
+    </article>
+</main>
+
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/HotChickenCurry/recipe-page-main" target="_blank">Chicken Curry</a>.
+</footer>
+
+</body>
+</html>
