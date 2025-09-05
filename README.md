@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-with-tailwindcss-and-js-8jW8-umlJn](https://www.frontendmentor.io/solutions/article-preview-component-with-tailwindcss-and-js-8jW8-umlJn)
 - Live Site URL: [https://hotchickencurry.github.io/article-preview-component-master](https://hotchickencurry.github.io/article-preview-component-master)
 
 ## My process
